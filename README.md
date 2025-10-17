@@ -5,6 +5,9 @@
 > This guide is meant to provide a basic understanding of HA/DR considerations, tools and processes with "out of the box" OpenShift capabilities.
 > In many cases, ISV partners have complementary solutions for specific HA/DR capabilties that exceed the included capabilities provided by OpenShift.  Please consider all options when building out your own HA/DR strategy.
 
+> [!CAUTION]
+> This are is still under construction :)
+
 ## Introduction
 
 Red Hat OpenShift is an extremely capable and robust platform that makes the concept of a true "Open Hybrid Cloud" a reality.  Yes, that statement does sound like marketing material, but once you dive into the capabilities that OpenShift provides, you will quickly come to the conclusion that this is indeed true.
