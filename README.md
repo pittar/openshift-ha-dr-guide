@@ -15,9 +15,9 @@ Automation, "everything as code", and backup/restore procedures are all too ofte
 
 ## High Availability and Disaster Recover Concerns
 
-1. Stable Underlying Compute/Network/Storage
-2. Consistent OpenShift Installation Process
-3. Platform Configuration as Code
+1. [Stable Underlying Compute/Network/Storage](content/stable-base.md)
+2. [Consistent OpenShift Installation Process](content/consistent-install.md)
+3. [Platform Configuration as Code](content/platform-as-code.md)
 4. Application Deployment / Configuration as Code
 5. Etcd Backup for control plane recovery
 6. OpenShift API for Data Protection (OADP) for Backup/Restore
