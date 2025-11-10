@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: demo/gitops/clusters/nonprod/argocd
+    path: demo/gitops/argocd/clusters/nonprod/argocd
     repoURL: https://github.com/pittar/openshift-ha-dr-guide.git
     targetRevision: main
   syncPolicy:

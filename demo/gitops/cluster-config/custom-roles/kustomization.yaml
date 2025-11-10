@@ -1,4 +1,2 @@
-namespace: openshift-gitops
-
 resources:
-  - custom-roles-application.yaml
+  - secrets-reader-cr.yaml

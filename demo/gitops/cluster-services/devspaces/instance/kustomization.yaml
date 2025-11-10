@@ -1,4 +1,5 @@
-namespace: openshift-gitops
+namespace: openshift-devspaces
 
 resources:
-  - devspaces-application.yaml
+  - namespace.yaml
+  - checluster.yaml
