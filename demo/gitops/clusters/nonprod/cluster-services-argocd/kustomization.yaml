@@ -1,0 +1,6 @@
+namespace: openshift-gitops
+
+resources:
+  - ../../../cluster-services/devspaces/operator
+  - ../../../cluster-services/devspaces/instance
+  - ../../../cluster-services/openshift-pipelines/operator

@@ -1,0 +1,3 @@
+resources:
+  - ../cluster-config-argocd
+  - ../cluster-services-argocd

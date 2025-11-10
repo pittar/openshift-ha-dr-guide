@@ -1,0 +1,12 @@
+namespace: openshift-gitops
+
+resources:
+  # Custom roles, including GitOps admin.
+  - ../../../cluster-config/custom-roles
+  - ../../../cluster-config/groups-and-membership
+  # Custom config for OpenShift GitOps.
+  - ../../../cluster-config/openshift-gitops/cluster
+  # Update auth with proper login options.
+  # - ../../../cluster-config/openshift-oauth/overlays/prime
+  # Etcd defrag cronjob only needed for SNO
+  # - ../../../cluster-config/etcd
